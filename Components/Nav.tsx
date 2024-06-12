@@ -10,9 +10,9 @@ const Nav = ({openNav}:Props)=>  {
     <div className='w-[100%] fixed z-[10000] top-0 h-[12vh] bg-gray-950  shadow-md ' >
         <div className='flex items-center  justify-between w-[80%]  h-[100%] mx-auto'>
             <h1 className='flex-[0.6] cursor-pointer text-[25px] text-white font-bold '>
-                WEB
+             Port
 
-                <span className='text-yellow-400'>DEV</span>
+                <span className='text-yellow-400'>folio</span>
             </h1>
             <div className='nav-link' >Home</div>
             <div className='nav-link' >SERVICES</div>
