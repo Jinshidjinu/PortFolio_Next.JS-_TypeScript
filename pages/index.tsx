@@ -6,7 +6,8 @@ import Services from '@/Components/Services'
 import About from '@/Components/About'
 import Skills from '@/Components/Skills'
 import Projects from '@/Components/Projects'
-
+import Review from '@/Components/Review'
+import Blog from '@/Components/Blog'
 const  HomePage = () => {
 
   const [nav,setNav] = useState(false)
@@ -32,6 +33,8 @@ const  HomePage = () => {
           <Services/>
           <Skills/>
           <Projects/>
+          <Review/>
+          <Blog/>
 
          
         </div>
