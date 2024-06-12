@@ -42,10 +42,17 @@ const ReviewSlider = () => {
      name="Jinshid M" 
      role="Web Developer"/>
 
-     <ClientReview image='/assets/images/jinu.jpg ' 
+     <ClientReview 
+     image='/assets/images/Sinan.png ' 
      name='Sinan CT' 
      role='React Developer' />   
-     <ClientReview image='/assets/images/Vaseem.png' name='Vaseem EP' role='React Developer' />   
+
+
+     <ClientReview 
+     image='/assets/images/Vaseem.png' 
+     name='Vaseem EP' 
+     role='React Developer'
+      />   
 
     </Carousel>
   )
