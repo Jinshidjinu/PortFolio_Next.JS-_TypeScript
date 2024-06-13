@@ -13,7 +13,7 @@ const Hero = () => {
         <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
           <div>
             <h1 className='text-[35px] md:text-[50px] text-white font-bold'>
-                HI, I'M <span className='text-yellow-400'>Jinshid!</span>
+            HI, I&apos;M <span className='text-yellow-400'>Jinshid!</span>
             </h1>
             <TextEffect/>
              <p className='mt-[2rem] text-[18px] text-gray-400 text-justify'>
@@ -35,7 +35,7 @@ const Hero = () => {
                 
              </div>
           </div>
-        <div className='w-[500px] hidden bg-orange-600 relative lg:flex items-center rounded-full h-[500px]'>
+        <div data-aos="zoom-in" className='w-[500px] hidden bg-orange-600 relative lg:flex items-center rounded-full h-[500px]'>
         
          <Image src={img} alt='user' layout='fill'  className='object-cover rounded-full'/>
 
